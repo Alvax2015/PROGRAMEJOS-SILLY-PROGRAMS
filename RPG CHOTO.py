@@ -15,12 +15,12 @@ enmult = 1
 nmfinal = random.choice(nombres)
 
 if nmfinal == "Dragon":
-   enhp = 75
+   enhp = 300
    enatt = 10
    attacks = ["Fuego", "Garrazo"]
 
 else:
-   enhp = 50
+   enhp = 200
    enatt = 5
    enmulton = True
    attacks = ["Magia", "Zarpazo"]
