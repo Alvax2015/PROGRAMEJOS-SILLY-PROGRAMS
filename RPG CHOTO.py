@@ -51,12 +51,12 @@ while p1hp > 0 and (enhp > 0):
    current_p1_attack = False
 
 
-   current_p1_attack = input("Elegí un ataque! : ")
+   current_p1_attack = input("Elegí un ataque! : ").strip().lower()
 
-   if current_p1_attack == "Magia":
+   if current_p1_attack == "magia":
       p1mult = p1mult + 1
 
-   elif current_p1_attack == "Espadazo":
+   elif current_p1_attack == "espadazo":
       enhp = enhp - p1hp * (p1mult)
 
    else :
