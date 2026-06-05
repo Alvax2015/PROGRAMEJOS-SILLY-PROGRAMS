@@ -8,6 +8,10 @@ mcypesos = 100
 
 while mcypesos > 0:
     gasto = int(input(f"¿Cuantos Mickey Pesos vas a apostar? (Tenés {mcypesos} Mickey Pesos): "))
+    if gasto > mcypesos:
+        print("Que verga??")
+        break
+
     mcypesos = mcypesos - gasto
 
     slot_simb = ["🗿", "🤑", "🐀"]
